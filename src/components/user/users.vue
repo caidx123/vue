@@ -31,8 +31,8 @@
       <el-table-column label="电话" prop="mobile"></el-table-column>
       <el-table-column label="角色" prop="role_name"></el-table-column>
       <el-table-column label="状态">
-<!--这里使用v-slot作用域插槽是因为element ui组件里面提供了<slot row="对象"></slot>-->
-        <template v-slot="spec">
+<!--这里使用v-slot作用域插槽是因为element ui组件里面提供了<slot name="default" row="对象"></slot>-->
+        <template v-slot:default="spec">
           <el-switch
               v-model="spec.row.mg_state"
               @change="userStateChanged(spec.row)">

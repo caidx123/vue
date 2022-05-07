@@ -52,6 +52,7 @@
     <el-table-column label="角色名称" prop="roleName"></el-table-column>
     <el-table-column label="角色描述" prop="roleDesc"></el-table-column>
     <el-table-column label="操作" width="300px">
+      <!--这里使用v-slot作用域插槽是因为element ui组件里面提供了<slot name="default" row="对象"></slot>-->
       <template slot-scope="scope">
         <el-button size="mini" type="primary" icon="el-icon-edit"
                    @click="showEditDialog(scope.row.id)">编辑</el-button>

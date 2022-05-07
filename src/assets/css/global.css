@@ -23,3 +23,17 @@ html,body,#app {
 
 
 }
+/*.el-cascader-menu{*/
+/*    height:300px;*/
+/*}*/
+
+
+/*.el-cascader-menu__wrap,.el-scrollbar__wrap{*/
+/*    height:290px;*/
+/*}*/
+.el-cascader-menu__wrap{
+    height:290px !important;
+}
+.el-scrollbar__wrap{
+    height:290px !important;
+}
