@@ -37,3 +37,6 @@ html,body,#app {
 .el-scrollbar__wrap{
     height:290px !important;
 }
+.el-alert__title{
+    line-height: 33px;
+}

@@ -153,7 +153,7 @@ data() {
       value: 'cat_id',
       //你看到的是那个属性的值
       label: 'cat_name',
-
+      // 指定选项的子选项为选项对象的某个属性值
       children: 'children'
     },
     // 选中的父级分类的Id数组
