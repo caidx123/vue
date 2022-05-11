@@ -40,3 +40,12 @@ html,body,#app {
 .el-alert__title{
     line-height: 33px;
 }
+.el-steps {
+    margin: 15px;
+}
+.el-step__title {
+    font-size: 13px;
+}
+.ql-editor, .ql-blank{
+    min-height: 300px;
+}
