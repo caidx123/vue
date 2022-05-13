@@ -195,7 +195,7 @@ export default {
 
       this.rolelist = res.data
 
-      // console.log(this.rolelist)
+      console.log(this.rolelist)
     },
 
     // 根据Id删除对应的权限
